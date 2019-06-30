@@ -1,0 +1,26 @@
+double dCircleBullet12 = 12.0;
+
+double dWidthMin_ChromeBrowser = 525.0; // 6
+double dWidthMin_ChromeBrowser750 = 750.0;
+double dWidthMin_ChromeBrowser815 = 815.0; // 8
+double dWidthMin_ChromeBrowser930 = 930.0;
+double dWidthMin_ChromeBrowser988 = 988.0;
+double dWidthMin_ChromeBrowser1185 = 1185.0;
+double dWidthMin_ChromeBrowser1245 = 1245.0;
+double dWidthMin_ChromeBrowser1280 = 1280.0;
+double dWidthMin_GoogleNexus5 = 360.0; // 2
+double dWidthMin_GooglePixel2 = 411.0; // 4
+double dWidthMin_iPhone5SE = 320.0; // 1
+double dWidthMin_iPhone678 = 375.0; // 3a
+double dWidthMin_iPhone678Plus = 414.0; // 5
+double dWidthMin_iPhoneX = 375.0; // 3b
+double dWidthMin_iPad = 768.0; // 7
+double dWidthMin_iPadPro = 1024.0; // 9
+double dWidthMin_Mac160 = 160.0;
+double dWidthMin_Mac320 = 320.0;
+double dWidthMin_Mac480 = 480.0;
+double dWidthMin_Mac640 = 640.0;
+double dWidthMin_Mac800 = 800.0;
+double dWidthMin_Mac960 = 960.0;
+double dWidthMin_Mac1120 = 1120.0;
+double dWidthMin_Mac1280 = 1280.0;
