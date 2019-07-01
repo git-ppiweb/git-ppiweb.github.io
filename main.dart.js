@@ -7351,9 +7351,9 @@ if(!(q<=768)){q=F.a(a,!1).a.a
 if(typeof q!=="number")return q.h()
 q=q<=1024}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0
 return M.p(p,u,p,p,p,p,p,new V.x(s,q?15:50,r,0),p)},
-Xg:function(a,b){var u,t,s,r,q,p,o=null,n=H.d([],[M.ct]),m=$.WB
+Xg:function(a,b){var u,t,s,r,q,p=null,o=H.d([],[M.ct]),n=$.WB
 for(u=[N.ad],t=0;t<1;++t){s=C.aq.k(0,900)
-C.a.i(n,M.p(o,T.fo(H.d([M.p(o,new M.cd(R.aF(new T.h4(C.o,C.r,C.A,C.m,o,C.a3,o,H.d([M.p(o,o,o,o,o,55,o,o,1),new T.aT(1,C.y,M.p(o,T.a8(H.d([L.Y(m[t].k(0,"label").toUpperCase(),o,!0,A.U(o,o,C.j,o,o,o,o,o,"Cantarell",o,12,o,C.l,o,o,!0,o,o,o,o,o,o),C.q)],u),C.m,C.p),o,o,o,o,o,new V.x(10,0,10,0),o),o)],u),o),o,o,o,o,o,o,new U.LJ(m,t),o),C.x,0.25,s,o,o,C.B,C.w,new K.a4(new Q.w(0,0),new Q.w(15,15),new Q.w(15,15),new Q.w(0,0)),o),o,o,o,o,o,o,o)],u)),o,o,o,o,new V.x(5,5,5,5),o,o))}s=F.a(a,!1).a.a
+C.a.i(o,M.p(p,T.fo(H.d([M.p(p,new M.cd(R.aF(new T.h4(C.o,C.r,C.A,C.m,p,C.a3,p,H.d([M.p(p,p,p,p,p,55,p,p,1),new T.aT(1,C.y,M.p(p,T.a8(H.d([L.Y(n[t].k(0,"label").toUpperCase(),p,!0,A.U(p,p,C.j,p,p,p,p,p,"Cantarell",p,12,p,C.l,p,p,!0,p,p,p,p,p,p),C.q)],u),C.m,C.p),p,p,p,p,p,new V.x(10,0,10,0),p),p)],u),p),p,p,p,p,p,p,new U.LJ(n,t),p),C.x,0.25,s,p,p,C.B,C.w,new K.a4(new Q.w(0,0),new Q.w(15,15),new Q.w(15,15),new Q.w(0,0)),p),p,p,p,p,p,p,p)],u)),p,p,p,p,new V.x(5,5,5,5),p,p))}s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
 if(!(s<=320)){s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
@@ -7389,14 +7389,14 @@ s=s<=800}else s=!1
 if(s)s=2
 else{s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.S()
-if(!(s>800)){s=F.a(a,!1).a.a
+if(s>800){s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
 if(!(s<=960)){s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
 if(!(s<=1024)){s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
-s=s<=1120}else s=!0}else s=!0}else s=!0
-s=s?3:4}}u=T.a8(H.d([B.f5(4,n,s,0,0,o,!1,!0)],u),C.m,C.p)
+s=s<=1120}else s=!0}else s=!0}else s=!1
+s=s?3:4}}u=T.a8(H.d([B.f5(4,o,s,0,0,p,!1,!0)],u),C.m,C.p)
 s=F.a(a,!1).a.a
 if(typeof s!=="number")return s.h()
 if(!(s<=320)){s=F.a(a,!1).a.a
@@ -7486,37 +7486,7 @@ if(typeof q!=="number")return q.h()
 if(!(q<=768)){q=F.a(a,!1).a.a
 if(typeof q!=="number")return q.h()
 q=q<=1024}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0}else q=!0
-q=q?15:50
-p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=320)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=360)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=375)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=375)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=411)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=414)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=525)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=540)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=540)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=622)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=720)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=720)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-if(!(p<=768)){p=F.a(a,!1).a.a
-if(typeof p!=="number")return p.h()
-p=p<=1024}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0}else p=!0
-return M.p(o,u,o,o,o,o,o,new V.x(s,q,r,p?15:50),o)},
+return M.p(p,u,p,p,p,p,p,new V.x(s,q?15:50,r,0),p)},
 Xk:function(a3,a4){var u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=null,d="Cantarell",c="title",b="urlphoto",a="gone",a0="visible",a1=H.d([],[M.ct]),a2=$.Os()
 for(u=[N.ad],t=1;t<9;++t){s=L.Y("Berita".toUpperCase(),e,!1,A.U(e,e,C.ai,e,e,e,e,e,d,e,10,e,C.l,e,e,!0,e,e,e,e,e,e),C.q)
 r=a2[t].k(0,c)
