@@ -8,6 +8,22 @@
     ]
   },
   {
+    "family": "Fira Sans - Light",
+    "fonts": [
+      {
+        "asset": "fonts/FiraSans-Light.ttf"
+      }
+    ]
+  },
+  {
+    "family": "Fira Sans - Regular",
+    "fonts": [
+      {
+        "asset": "fonts/FiraSans-Regular.ttf"
+      }
+    ]
+  },
+  {
     "family": "MaterialIcons",
     "fonts": [
       {
@@ -32,7 +48,15 @@
     ]
   },
   {
-    "family": "Titillium Web",
+    "family": "Titillium Web - Light",
+    "fonts": [
+      {
+        "asset": "fonts/TitilliumWeb-Light.ttf"
+      }
+    ]
+  },
+  {
+    "family": "Titillium Web - Regular",
     "fonts": [
       {
         "asset": "fonts/TitilliumWeb-Regular.ttf"

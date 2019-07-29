@@ -8,6 +8,9 @@
   "img_facebook_circle_512px": [
     "images/img_facebook_circle_512px.png"
   ],
+  "img_facebook_square_512px": [
+    "images/img_facebook_square_512px.png"
+  ],
   "img_facebook_grey1": [
     "images/img_facebook_grey1.png"
   ],
@@ -131,6 +134,9 @@
   "img_twitter_circle_512px": [
     "images/img_twitter_circle_512px.png"
   ],
+  "img_twitter_square_512px": [
+    "images/img_twitter_square_512px.png"
+  ],
   "img_twitter_grey1": [
     "images/img_twitter_grey1.png"
   ],
@@ -145,6 +151,9 @@
   ],
   "img_user_20190613_001": [
     "images/img_user_20190613_001.jpg"
+  ],
+  "img_whatsapp1_512px":[
+    "images/img_whatsapp1_512px.png"
   ],
   "img_youtube_grey1": [
     "images/img_youtube_grey2.png"
