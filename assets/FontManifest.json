@@ -1,29 +1,5 @@
 [
   {
-    "family": "Cantarell",
-    "fonts": [
-      {
-        "asset": "fonts/Cantarell-Regular.ttf"
-      }
-    ]
-  },
-  {
-    "family": "Fira Sans - Light",
-    "fonts": [
-      {
-        "asset": "fonts/FiraSans-Light.ttf"
-      }
-    ]
-  },
-  {
-    "family": "Fira Sans - Regular",
-    "fonts": [
-      {
-        "asset": "fonts/FiraSans-Regular.ttf"
-      }
-    ]
-  },
-  {
     "family": "MaterialIcons",
     "fonts": [
       {
@@ -32,34 +8,10 @@
     ]
   },
   {
-    "family": "Merriweather",
-    "fonts": [
-      {
-        "asset": "fonts/Merriweather-Bold.ttf"
-      }
-    ]
-  },
-  {
     "family": "Open Sans",
     "fonts": [
       {
         "asset": "fonts/OpenSans-Regular.ttf"
-      }
-    ]
-  },
-  {
-    "family": "Titillium Web - Light",
-    "fonts": [
-      {
-        "asset": "fonts/TitilliumWeb-Light.ttf"
-      }
-    ]
-  },
-  {
-    "family": "Titillium Web - Regular",
-    "fonts": [
-      {
-        "asset": "fonts/TitilliumWeb-Regular.ttf"
       }
     ]
   }
