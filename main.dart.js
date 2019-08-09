@@ -61219,7 +61219,7 @@ if(typeof m!=="number")return m.n()
 if(!(m<=768)){m=F.n(a,!1).a.a
 if(typeof m!=="number")return m.n()
 m=m<=1024}else m=!0}else m=!1
-m=m?new V.r(0,0,0,0):new V.r(5,0,5,25)
+m=m?new V.r(0,0,0,0):new V.r(50,50,50,25)
 o=M.k(i,s,i,i,n,i,p,i,m,i,i,o.a)
 s=N.aB(a)?e:f
 p=M.k(i,i,i,i,i,i,i,i,i,i,i,i)
@@ -61228,16 +61228,11 @@ n=B.d_(i,new X.Wq(j),n,i,!1,C.u,!0)
 m=N.K(a)?f:e
 m=H.b([new S.T(m,new R.bA(1,i),M.k(i,i,i,i,i,i,i,i,i,i,i,i),i),T.aF(H.b([L.cl(C.bq,i,14),new T.M(new V.r(5,5,5,5),i,i),L.P("Kembali Ke Atas".toUpperCase(),i,i,i,!0,A.D(i,i,i,i,i,i,i,i,g,i,14,i,C.l,i,i,!0,i,i,i,i,i,i),C.n),new R.bA(1,i)],q),C.o,C.D,C.j)],q)
 m=T.Y(m,C.A,N.K(a)?C.D:C.a4,C.j)
-l=N.K(a)?45:65
-m=R.ai(M.k(i,m,i,i,i,i,l,i,i,N.K(a)?new V.r(15,0,15,0):new V.r(0,0,0,0),i,i),i,i,i,i,i,i,i,j.gwV(),i)
+m=R.ai(M.k(i,m,i,i,i,i,N.K(a)?45:65,i,i,i,i,i),i,i,i,i,i,i,i,j.gwV(),i)
+m=M.k(i,m,i,i,i,i,i,i,N.K(a)?new V.r(15,0,15,0):new V.r(50,0,50,0),i,i,i)
 l=M.k(i,i,i,i,i,i,i,i,i,i,i,i)
 k=N.K(a)?5:10
-u=T.Y(H.b([new S.T(u,r,t,i),new S.T(s,o,p,i),n,new S.T(f,m,l,i),new S.T(f,new T.M(new V.r(k,k,k,k),i,i),M.k(i,i,i,i,i,i,i,i,i,i,i,i),i),E.kG(a)],q),C.o,C.D,C.j)
-t=F.n(a,!1).a
-s=N.K(a)?0:50
-r=N.K(a)?0:50
-q=N.K(a)?0:50
-u=M.k(i,u,i,i,i,i,i,i,i,new V.r(s,q,r,N.K(a)?0:50),i,t.a)}else u=j.a_i(j.x,j.y,j.z,j.Q,j.ch,j.cx,j.cy)
+u=M.k(i,T.Y(H.b([new S.T(u,r,t,i),new S.T(s,o,p,i),n,new S.T(f,m,l,i),new S.T(f,new T.M(new V.r(k,k,k,k),i,i),M.k(i,i,i,i,i,i,i,i,i,i,i,i),i),E.kG(a)],q),C.o,C.D,C.j),i,i,i,i,i,i,i,i,i,F.n(a,!1).a.a)}else u=j.a_i(j.x,j.y,j.z,j.Q,j.ch,j.cx,j.cy)
 return u},
 a_i:function(a,b,c,d,e,f,g){var u,t,s,r,q,p,o,n,m=this,l=null,k="Open Sans",j=M.k(l,l,l,l,l,l,l,l,l,l,l,l),i=J.bm(e).H(e,"http")||C.f.H(e,"https")||C.f.H(e,"www")?U.dD(e,C.B,l,l,l,!1,C.K,l,!1,C.a0,1,l,l):U.aK(e,C.K,l,l,l),h=[N.U]
 i=M.aU(C.v,new K.R(new Q.l(3,3),new Q.l(3,3),new Q.l(0,0),new Q.l(0,0)),T.ba(C.aA,H.b([i],h),C.M,C.G),C.F,l,0,l,l,l,C.x)
@@ -61524,7 +61519,8 @@ n=n<=1024}else n=!0}else n=!1
 n=n?2:3}m=N.K(a3)?15:0
 m=B.he(1,u.db,n,15,15,new V.r(m,m,m,m),!1,!0)
 u=N.aB(a3)?c:b
-return M.k(g,T.Y(H.b([new S.T(s,t,r,g),new S.T(p,q,o,g),new S.T(u,m,M.k(g,g,g,g,g,g,g,g,g,g,g,g),g)],k),C.A,C.q,C.j),g,g,g,g,g,g,g,new V.r(5,0,5,0),g,g)},
+k=T.Y(H.b([new S.T(s,t,r,g),new S.T(p,q,o,g),new S.T(u,m,M.k(g,g,g,g,g,g,g,g,g,g,g,g),g)],k),C.A,C.q,C.j)
+return M.k(g,k,g,g,g,g,g,g,N.K(a3)?new V.r(15,0,15,0):new V.r(50,0,50,0),g,g,g)},
 $C:"$2",
 $R:2,
 $S:6}
