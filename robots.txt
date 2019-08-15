@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /
+Disallow: /no-index/
+Disallow: /packages/partaiperindo_webdev2/notes/
+
+User-agent: Googlebot
+Disallow: /packages/partaiperindo_webdev2/notes/
+
+User-agent: Bingbot
+Crawl-delay: 100
+Disallow: /packages/partaiperindo_webdev2/notes/
+
+Host: https://partaiperindo.com
