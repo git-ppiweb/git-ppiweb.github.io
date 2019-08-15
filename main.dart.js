@@ -48539,7 +48539,7 @@ if(u!=null)C.uP.cS(u)
 u=k.createElement("meta")
 u.setAttribute("flt-viewport","")
 u.name="viewport"
-u.content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+u.content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
 o.c=u
 k.head.appendChild(u)
 u=o.x
