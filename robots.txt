@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /
-Disallow: /no-index/
 Disallow: /packages/partaiperindo_webdev2/notes/
 
 User-agent: Googlebot
