@@ -53272,7 +53272,7 @@ u=s}else if(h.go===0){u=!h.z?new F.ib(h.x1,g):M.o(g,g,g,g,g,g,g,g,g,g,g)
 t=[N.U]
 s=new Q.C(5,5)
 r=new Q.C(5,5)
-r=M.o(g,M.aB(C.r,new K.S(s,s,s,s),M.o(g,T.aM(H.c([M.o(g,M.aB(C.r,g,E.ke(a,!0,!0,!0,h.k3),C.y,C.i,0,g,g,g,C.w),g,g,g,g,375,g,g,g,g),M.o(C.b0,T.aM(H.c([L.a5("Berita Perindo".toUpperCase(),g,g,!0,A.L(g,g,C.l.i(0,500),g,g,g,g,g,g,g,12,g,C.V,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(10,10,10,10),g,g),L.a5(h.k1.toUpperCase(),g,g,!0,A.L(g,g,C.z,g,g,g,g,g,g,g,28,g,C.V,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(10,10,10,10),g,g),L.a5(h.k4,g,g,!0,A.L(g,g,C.l.i(0,500),g,g,g,g,g,g,g,12,g,C.v,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(15,15,15,15),g,g),new D.Fj(h.k2,A.L(g,g,g,g,g,g,g,g,"Open Sans",g,12,g,g,g,g,!0,g,g,g,g,g,g),new R.Xt(),C.w3,new R.Xu(),new R.Xv(),new R.Xw(),new R.Xx(),g)],t),C.A,C.k),C.i,g,g,g,g,g,new V.w(25,25,25,25),g,g)],t),C.n,C.k),g,g,g,g,g,g,g,g,g),C.y,C.i,0,g,g,g,C.w),g,g,S.c3(g,new K.S(r,r,r,r),H.c([new O.b2(C.l.i(0,300),C.m,1.5,0)],[O.b2]),C.i,g,g,C.H),g,g,new V.w(25,25,0,25),g,g,g)
+r=M.o(g,M.aB(C.r,new K.S(s,s,s,s),M.o(g,T.aM(H.c([M.o(g,M.aB(C.r,g,E.ke(a,!0,!0,!0,h.k3),C.y,C.i,0,g,g,g,C.w),g,g,g,g,375,g,g,g,g),M.o(C.b0,T.aM(H.c([L.a5("Berita Perindo".toUpperCase(),g,g,!0,A.L(g,g,C.l.i(0,500),g,g,g,g,g,g,g,12,g,C.V,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(10,10,10,10),g,g),L.a5(h.k1.toUpperCase(),g,g,!0,A.L(g,g,C.z,g,g,g,g,g,g,g,28,g,C.V,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(10,10,10,10),g,g),L.a5(h.k4,g,g,!0,A.L(g,g,C.l.i(0,500),g,g,g,g,g,g,g,12,g,C.v,g,g,!0,g,g,g,g,g,g),C.u),new T.W(new V.w(15,15,15,15),g,g),new D.Fj(h.k2,A.L(g,g,g,g,g,g,g,g,g,g,14,g,g,g,g,!0,g,g,g,g,g,g),new R.Xt(),C.w3,new R.Xu(),new R.Xv(),new R.Xw(),new R.Xx(),g)],t),C.A,C.k),C.i,g,g,g,g,g,new V.w(25,25,25,25),g,g)],t),C.n,C.k),g,g,g,g,g,g,g,g,g),C.y,C.i,0,g,g,g,C.w),g,g,S.c3(g,new K.S(r,r,r,r),H.c([new O.b2(C.l.i(0,300),C.m,1.5,0)],[O.b2]),C.i,g,g,C.H),g,g,new V.w(25,25,0,25),g,g,g)
 s=M.o(C.G,L.a5("Berita Pilihan".toUpperCase(),1,C.a6,!1,A.L(g,g,C.z,g,g,g,g,g,g,g,14,g,C.S,g,g,!0,g,g,g,g,g,g),C.u),g,g,g,g,40,g,g,g,g)
 q=h.r1.length
 s=M.o(g,T.ay(H.c([new T.aT(1,C.B,r,g),new T.W(new V.w(15,15,15,15),g,g),M.o(g,T.aM(H.c([s,M.o(g,B.uP(new R.Xl(h),q,!1,C.x,!0),g,g,g,g,g,g,g,g,g)],t),C.A,C.k),g,g,g,g,g,g,new V.w(0,25,25,25),g,300)],t),C.A,C.ap,C.p),g,g,g,g,g,g,g,g,g)
@@ -53534,7 +53534,7 @@ R.Xw.prototype={
 $2:function(a,b){var u=null
 H.a(a,"$ib5")
 H.a(b,"$iZ")
-if(a instanceof B.bn)switch(a.y){case"p":return b.aA(A.L(u,u,u,u,u,u,u,u,u,u,12,u,u,u,1,!0,0.5,u,u,u,u,u))}return b},
+if(a instanceof B.bn)switch(a.y){case"p":return b.aA(A.L(u,u,u,u,u,u,u,u,u,u,14,u,u,u,u,!0,u,u,u,u,u,u))}return b},
 $C:"$2",
 $R:2,
 $S:270}
