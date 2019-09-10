@@ -60120,7 +60120,7 @@ n=H.f(J.h(q.i(j,i),"id"))
 m=H.f(J.h(q.i(j,i),"judul"))
 h=H.f(J.h(q.i(j,i),"textthumb"))
 g=H.f(J.h(q.i(j,i),"textfull"))
-f=H.f(J.h(q.i(j,i),"textfull")).length===0?"https://1.bp.blogspot.com/-XkOcEVFMzOk/XWdNwMrGlUI/AAAAAAAAZWY/ldxwQ0gGo6g0m32QvcmeVde22h_ETJkzgCLcBGAs/s1600/img_welcometoindonesia_nocaption.png":H.f(J.h(q.i(j,i),"textfull"))
+f=H.f(J.h(q.i(j,i),"urlphoto")).length===0?"https://1.bp.blogspot.com/-XkOcEVFMzOk/XWdNwMrGlUI/AAAAAAAAZWY/ldxwQ0gGo6g0m32QvcmeVde22h_ETJkzgCLcBGAs/s1600/img_welcometoindonesia_nocaption.png":H.f(J.h(q.i(j,i),"urlphoto"))
 C.a.h(p,P.t(["id",n,"judul",m,"textthumb",h,"textfull",g,"urlphoto",f,"tglposting",H.f(J.h(q.i(j,i),"tglposting"))],o,o))}++i}for(q=[N.M],p=[O.ao],i=0;o=r.aw,i<o.length;){n=new Q.A(0,0)
 n=M.j(null,new M.dy(E.du(r.c,!1,!0,!1,H.f(J.h(o[i],"urlphoto"))),C.z,0,C.j,null,null,C.C,C.v,new K.O(n,n,n,n),null),null,null,null,null,175,null,null,null,null,300)
 o=r.aw
