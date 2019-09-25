@@ -8,6 +8,14 @@
     ]
   },
   {
+    "family": "Roboto",
+    "fonts": [
+      {
+        "asset": "fonts/Roboto-Regular.ttf"
+      }
+    ]
+  },
+  {
     "family": "Open Sans",
     "fonts": [
       {
