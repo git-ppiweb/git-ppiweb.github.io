@@ -100,8 +100,8 @@ body
 {
    background-color: #FFFFFF;
    color: #000000;
-   font-size: 15px;
-   font-family: Tahoma;
+   font-size: 13px;
+   font-family: Cantarell;
    font-weight: normal;
    line-height: 18px;
    text-align: right;
@@ -147,8 +147,8 @@ body
 {
    background-color: #FFFFFF;
    color: #FF0000;
-   font-size: 15px;
-   font-family: Tahoma;
+   font-size: 13px;
+   font-family: Cantarell;
    font-weight: normal;
    line-height: 18px;
    text-align: right;
@@ -332,8 +332,8 @@ body
    text-align: center;
    text-decoration: none;
    color: #333333;
-   font-size: 15px;
-   font-family: Tahoma;
+   font-size: 13px;
+   font-family: Cantarell;
    font-style: normal;
 }
 .MenuBar1MainItem, .MenuBar1MainItemHover, .MenuBar1MainItemActive,
@@ -390,21 +390,6 @@ body
    box-shadow: 0px 0px 3px #F5F5F5;
    -webkit-appearance: none;
    margin: 0;
-}
-#Label1
-{
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color :#FFFFFF;
-   font-family: Tahoma;
-   font-weight: normal;
-   font-size: 13px;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   vertical-align: top;
 }
 #Image2
 {
@@ -738,9 +723,9 @@ body
    background-color: transparent;
    background-image: none;
    color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
+   font-family: Cantarell;
+   font-weight: normal;
+   font-size: 16px;
    -webkit-appearance: none;
    margin: 0;
 }
@@ -754,9 +739,9 @@ body
    background-color: transparent;
    background-image: none;
    color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
+   font-family: Cantarell;
+   font-weight: normal;
+   font-size: 16px;
    -webkit-appearance: none;
    margin: 0;
 }
@@ -770,9 +755,9 @@ body
    background-color: transparent;
    background-image: none;
    color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 13px;
+   font-family: Cantarell;
+   font-weight: normal;
+   font-size: 16px;
    -webkit-appearance: none;
    margin: 0;
 }
@@ -810,7 +795,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -825,7 +810,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -867,7 +852,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -882,7 +867,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -924,7 +909,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -939,7 +924,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -993,7 +978,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -1008,7 +993,7 @@ body
    background-color: transparent;
    background-image: none;
    color :#000000;
-   font-family: Tahoma;
+   font-family: Cantarell;
    font-weight: normal;
    font-size: 16px;
    padding: 4px 4px 4px 4px;
@@ -1042,7 +1027,7 @@ body
 }
 #Carousel1 .frame
 {
-   width: 657px;
+   width: 677px;
    display: inline-block;
    float: left;
    height: 460px;
@@ -1145,4 +1130,470 @@ body
 #wb_Text14 div
 {
    text-align: left;
+}
+#wb_Carousel2
+{
+   background-color: #FFFFFF;
+   background-image: url(images/img_loading_google1.gif);
+   background-repeat: repeat;
+   background-position: left top;
+   border: 1px groove #F5F5F5;
+   box-sizing: border-box;
+}
+#Carousel2 .frame
+{
+   width: 1348px;
+   display: inline-block;
+   float: left;
+   height: 502px;
+}
+#wb_Carousel2 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: left;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel2 .pagination img
+{
+   border-style: none;
+   padding: 25px 25px 25px 25px;
+}
+#Carousel2_back
+{
+   position: absolute;
+   left: 25px;
+   top: 46%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel2_next
+{
+   position: absolute;
+   right: 25px;
+   top: 46%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel2_back img, #Carousel2_next img
+{
+   border-width: 0;
+}
+#Carousel2_back a, #Carousel2_next a
+{
+   cursor: pointer;
+}
+#Carousel2 .frame-1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Carousel2 .frame-2
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Picture4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer3
+{
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15 div
+{
+   text-align: center;
+}
+#Layer4
+{
+   background-clip: padding-box;
+   background-color: #F5F5F5;
+   background-image: none;
+   opacity: 0.25;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#Line1
+{
+   border-color: #DCDCDC;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text17 div
+{
+   text-align: justify;
+}
+#Picture5
+{
+   border: 0px solid #000000;
+   padding: 0;
+   object-fit: cover;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Layer5
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   opacity: 0.25;
+}
+#Line2
+{
+   border-color: #DCDCDC;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: justify;
+}
+#wb_Text19 div
+{
+   text-align: justify;
+}
+#Table1
+{
+   border: 2px solid transparent;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 p, #Table1 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 none;
+   text-align: center;
+   vertical-align: top;
+   width: 422px;
+   height: 492px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table1 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   height: 492px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Picture6
+{
+   border: 0px solid transparent;
+   border-radius: 75px;
+   padding: 0;
+   object-fit: cover;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text20 div
+{
+   text-align: center;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text21 div
+{
+   text-align: center;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text22 div
+{
+   text-align: center;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text23 div
+{
+   text-align: right;
+}
+#Layer7
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Picture7
+{
+   border: 0px solid #000000;
+   border-radius: 75px;
+   padding: 0;
+   object-fit: cover;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text24 div
+{
+   text-align: center;
+}
+#wb_Text25 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text25 div
+{
+   text-align: center;
+}
+#wb_Text26 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text26 div
+{
+   text-align: center;
+}
+#Layer8
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Picture8
+{
+   border: 0px solid #000000;
+   border-radius: 75px;
+   padding: 0;
+   object-fit: cover;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text27 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text27 div
+{
+   text-align: center;
+}
+#wb_Text28 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text28 div
+{
+   text-align: center;
+}
+#wb_Text29 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text29 div
+{
+   text-align: center;
+}
+#Layer9
+{
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#Table2
+{
+   border: 2px solid transparent;
+   background-color: #F5F5F5;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#Table2 td
+{
+   padding: 0;
+}
+#Table2 p, #Table2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Table2 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   width: 620px;
+   height: 776px;
+   font-size: 0;
+}
+#Table2 .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #C0C0C0 none;
+   text-align: left;
+   vertical-align: top;
+   height: 776px;
+   font-size: 0;
 }
