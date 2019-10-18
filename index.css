@@ -14,460 +14,6 @@ body
    margin: 0;
    padding: 0;
 }
-#Button1
-{
-   line-height: 40px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 0px solid #2E6DA4;
-   border-radius: 20px;
-   background-color: #A52B1D;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   box-shadow: 0px 0px 3px #F5F5F5;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#MenuBar1
-{
-   background-color: transparent;
-   border: 0px solid #CCCCCC;
-}
-.MenuBar1SubMenu
-{
-   background-color: transparent;
-   border: 1px solid #CCCCCC;
-   position:	absolute;
-   visibility: hidden;
-   overflow: visible;
-   z-index: 100;
-}
-.MenuBar1SubMenuTable
-{
-   cursor: default;
-   border: 0;
-   padding: 0;
-}
-.MenuBar1SubMenuTable tr
-{
-   margin: 0;
-   padding: 0;
-}
-.MenuBar1Menu
-{
-   background-color: transparent;
-   margin: 0px 0 0px 0px;
-   padding: 0;
-}
-.MenuBar1MenuOuter
-{
-   background-color: transparent;
-   border: 0px solid #CCCCCC;
-}
-.MenuBar1Menu tr
-{
-   margin: 0;
-   padding: 0;
-}
-.MenuBar1MainItem .MenuBar1MainItemLeft,
-.MenuBar1MainItem .MenuBar1MainFolderLeft
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   text-align: center;
-   padding: 5px 0px 5px 0px;
-   font-size: 1px;
-}
-.MenuBar1MainItem .MenuBar1MainItemText, 
-.MenuBar1MainItem .MenuBar1MainItemText a,
-.MenuBar1MainItem .MenuBar1MainFolderText,
-.MenuBar1MainItem .MenuBar1MainFolderText a
-{
-   background-color: #FFFFFF;
-   color: #000000;
-   font-size: 13px;
-   font-family: Cantarell;
-   font-weight: normal;
-   line-height: 18px;
-   text-align: right;
-   text-decoration: none;
-   white-space: nowrap;
-   margin: 0;
-   cursor: pointer;
-   border-bottom: 0px solid #FFFFFF;
-   border-right: 0px solid #FFFFFF;
-   border-top: 0px solid #FFFFFF;
-   border-left: 0px solid #FFFFFF;
-   padding: 5px 15px 5px 15px;
-   vertical-align: middle;
-}
-.MenuBar1MainItem .MenuBar1MainItemRight,
-.MenuBar1MainItem .MenuBar1MainFolderRight
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 5px 0px 5px 0px;
-   font-size: 1px;
-}
-.MenuBar1MainItemHover .MenuBar1MainItemLeft,
-.MenuBar1MainItemActive .MenuBar1MainItemLeft,
-.MenuBar1MainItemHover .MenuBar1MainFolderLeft,
-.MenuBar1MainItemActive .MenuBar1MainFolderLeft
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 5px 0px 5px 0px;
-   font-size: 1px;
-}
-.MenuBar1MainItemHover .MenuBar1MainItemText,
-.MenuBar1MainItemActive .MenuBar1MainItemText,
-.MenuBar1MainItemHover .MenuBar1MainItemText a,
-.MenuBar1MainItemActive .MenuBar1MainItemText a,
-.MenuBar1MainItemHover .MenuBar1MainFolderText,
-.MenuBar1MainItemActive .MenuBar1MainFolderText,
-.MenuBar1MainItemHover .MenuBar1MainFolderText a,
-.MenuBar1MainItemActive .MenuBar1MainFolderText a
-{
-   background-color: #FFFFFF;
-   color: #FF0000;
-   font-size: 13px;
-   font-family: Cantarell;
-   font-weight: normal;
-   line-height: 18px;
-   text-align: right;
-   text-decoration: none;
-   white-space: nowrap;
-   margin: 0;
-   cursor: pointer;
-   border-bottom: 0px solid #FFFFFF;
-   border-right: 0px solid #FFFFFF;
-   border-top: 0px solid #FFFFFF;
-   border-left: 0px solid #FFFFFF;
-   padding: 5px 15px 5px 15px;
-   vertical-align: middle;
-}
-.MenuBar1MainItemHover .MenuBar1MainItemRight,
-.MenuBar1MainItemActive .MenuBar1MainItemRight,
-.MenuBar1MainItemHover .MenuBar1MainFolderRight,
-.MenuBar1MainItemActive .MenuBar1MainFolderRight
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 5px 0px 5px 0px;
-   font-size: 1px;
-}
-.MenuBar1MenuItem .MenuBar1MenuItemLeft,
-.MenuBar1MenuItem .MenuBar1MenuFolderLeft
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   text-align: center;
-   padding: 3px 0px 3px 0px;
-   font-size: 1px;
-}
-.MenuBar1MenuItem .MenuBar1MenuItemText, 
-.MenuBar1MenuItem .MenuBar1MenuItemText a,
-.MenuBar1MenuItem .MenuBar1MenuFolderText,
-.MenuBar1MenuItem .MenuBar1MenuFolderText a
-{
-   background-color: #FFFFFF;
-   color: #333333;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 16px;
-   text-align: left;
-   text-decoration: none;
-   white-space: nowrap;
-   margin: 0;
-   cursor: pointer;
-   border-bottom: 0px solid #CCCCCC;
-   border-top: 0px solid #CCCCCC;
-   border-right: 0px solid #CCCCCC;
-   border-left: 0px solid #CCCCCC;
-   padding: 3px 5px 3px 5px;
-   vertical-align: middle;
-}
-.MenuBar1MenuItem .MenuBar1MenuItemRight,
-.MenuBar1MenuItem .MenuBar1MenuFolderRight
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 3px 0px 3px 0px;
-   font-size: 1px;
-}
-.MenuBar1MenuItemHover .MenuBar1MenuItemLeft, 
-.MenuBar1MenuItemActive .MenuBar1MenuItemLeft,
-.MenuBar1MenuItemHover .MenuBar1MenuFolderLeft,
-.MenuBar1MenuItemActive .MenuBar1MenuFolderLeft
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 3px 0px 3px 0px;
-   font-size: 1px;
-}
-.MenuBar1MenuItemHover .MenuBar1MenuItemText,
-.MenuBar1MenuItemActive .MenuBar1MenuItemText,
-.MenuBar1MenuItemHover .MenuBar1MenuItemText a,
-.MenuBar1MenuItemActive .MenuBar1MenuItemText a,
-.MenuBar1MenuItemHover .MenuBar1MenuFolderText,
-.MenuBar1MenuItemActive .MenuBar1MenuFolderText,
-.MenuBar1MenuItemHover .MenuBar1MenuFolderText a,
-.MenuBar1MenuItemActive .MenuBar1MenuFolderText a
-{
-   background-color: #337AB7;
-   color: #FFFFFF;
-   font-size: 13px;
-   font-family: Arial;
-   font-weight: normal;
-   line-height: 16px;
-   text-align: left;
-   text-decoration: none;
-   white-space: nowrap;
-   margin: 0;
-   cursor: pointer;
-   border-bottom: 0px solid #CCCCCC;
-   border-top: 0px solid #CCCCCC;
-   border-right: 0px solid #CCCCCC;
-   border-left: 0px solid #CCCCCC;
-   padding: 3px 5px 3px 5px;
-   vertical-align: middle;
-}
-.MenuBar1MenuItemHover .MenuBar1MenuItemRight,
-.MenuBar1MenuItemActive .MenuBar1MenuItemRight,
-.MenuBar1MenuItemHover .MenuBar1MenuFolderRight,
-.MenuBar1MenuItemActive .MenuBar1MenuFolderRight
-{
-   width: 0px;
-   cursor: pointer;
-   border-width: 0;
-   padding: 3px 0px 3px 0px;
-   font-size: 1px;
-}
-.MenuBar1SubMenu td,
-.MenuBar1Menu td,
-.MenuBar1Menu tr
-{
-   vertical-align: middle;
-}
-.MenuBar1MenuSplitText div
-{
-   height: 1px;
-   padding: 0;
-   background-color: #333333;
-   overflow: hidden;
-}
-.MenuBar1MenuItem .MenuBar1MenuSplitLeft
-{
-   height: 7px;
-   padding: 0;
-}
-.MenuBar1MenuItem .MenuBar1MenuSplitText
-{
-   background-color: #FFFFFF;
-   height: 7px;
-   padding: 0px 6px 0px 6px;
-}
-.MenuBar1MenuItem .MenuBar1MenuSplitRight
-{
-   height: 7px;
-   padding: 0;
-}
-.MenuBar1MainSplitText div
-{
-   background-color: #333333;
-   height: 1px;
-   padding: 0;
-   overflow: hidden;
-}
-.MenuBar1MainItem .MenuBar1MainSplitLeft 
-{
-   height: 11px;
-   padding: 0;
-}
-.MenuBar1MainItem .MenuBar1MainSplitText
-{
-   background-color: #FFFFFF;
-   height: 11px;
-   padding: 0;
-}
-.MenuBar1MainItem .MenuBar1MainSplitRight
-{
-   height: 11px;
-   padding: 0;
-}
-.MenuBar1MainItem
-{
-   vertical-align: middle;
-}
-.MenuBar1HorizontalSplit
-{
-   border-right: 0 solid #8080FF;
-   border-left: 0 solid #8080FF;
-   width: 35px;
-   background-color: #FFFFFF;
-   padding: 5px 0px 5px 0px;
-   vertical-align: middle;
-   text-align: center;
-   text-decoration: none;
-   color: #333333;
-   font-size: 13px;
-   font-family: Cantarell;
-   font-style: normal;
-}
-.MenuBar1MainItem, .MenuBar1MainItemHover, .MenuBar1MainItemActive,
-.MenuBar1MenuItem, .MenuBar1MenuItemHover, .MenuBar1MenuItemActive
-{
-   white-space: nowrap;
-}
-.MenuBar1SpacerDiv
-{
-   background: transparent;
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: 1px;
-}
-#button_search
-{
-   line-height: 40px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 0px solid #2E6DA4;
-   border-radius: 25px;
-   background-color: #F5F5F5;
-   background-image: url(images/ic_search_32px.png);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 20px 20px;
-   color: #F5F5F5;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   box-shadow: 0px 0px 3px #DCDCDC;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#button_signup
-{
-   line-height: 40px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 0px solid #2E6DA4;
-   border-radius: 20px;
-   background-color: #3370B7;
-   background-image: url(images/ic_person_32px.png);
-   background-repeat: no-repeat;
-   background-position: center center;
-   background-size: 20px 20px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   box-shadow: 0px 0px 3px #F5F5F5;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Button2
-{
-   line-height: 40px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 0px solid #2E6DA4;
-   border-radius: 20px;
-   background-color: transparent;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   -webkit-appearance: none;
-   margin: 0;
-}
-#button_metube_header
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#button_youtube_header
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#button_instagram_header
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#button_twitter_header
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#button_facebook_header
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_carousel_slider_trendingstories
 {
    background-color: transparent;
@@ -1430,19 +976,6 @@ body
 {
    text-align: center;
 }
-#wb_Text23 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: right;
-}
-#wb_Text23 div
-{
-   text-align: right;
-}
 #Layer7
 {
    background-color: transparent;
@@ -1741,4 +1274,533 @@ body
    line-height: 0px !important;
    margin: 0;
    padding: 0;
+}
+#Layer11
+{
+   background-color: #00008B;
+   background-image: none;
+}
+#Layer12
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#MenuBar1
+{
+   background-color: transparent;
+   border: 0px solid #CCCCCC;
+}
+.MenuBar1SubMenu
+{
+   background-color: transparent;
+   border: 1px solid #CCCCCC;
+   position:	absolute;
+   visibility: hidden;
+   overflow: visible;
+   z-index: 100;
+}
+.MenuBar1SubMenuTable
+{
+   cursor: default;
+   border: 0;
+   padding: 0;
+}
+.MenuBar1SubMenuTable tr
+{
+   margin: 0;
+   padding: 0;
+}
+.MenuBar1Menu
+{
+   background-color: transparent;
+   margin: 0px 0 0px 0px;
+   padding: 0;
+}
+.MenuBar1MenuOuter
+{
+   background-color: transparent;
+   border: 0px solid #CCCCCC;
+}
+.MenuBar1Menu tr
+{
+   margin: 0;
+   padding: 0;
+}
+.MenuBar1MainItem .MenuBar1MainItemLeft,
+.MenuBar1MainItem .MenuBar1MainFolderLeft
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   text-align: center;
+   padding: 5px 0px 5px 0px;
+   font-size: 1px;
+}
+.MenuBar1MainItem .MenuBar1MainItemText, 
+.MenuBar1MainItem .MenuBar1MainItemText a,
+.MenuBar1MainItem .MenuBar1MainFolderText,
+.MenuBar1MainItem .MenuBar1MainFolderText a
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-size: 13px;
+   font-family: Cantarell;
+   font-weight: normal;
+   line-height: 18px;
+   text-align: right;
+   text-decoration: none;
+   white-space: nowrap;
+   margin: 0;
+   cursor: pointer;
+   border-bottom: 0px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   border-left: 0px solid #FFFFFF;
+   padding: 5px 15px 5px 15px;
+   vertical-align: middle;
+}
+.MenuBar1MainItem .MenuBar1MainItemRight,
+.MenuBar1MainItem .MenuBar1MainFolderRight
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 5px 0px 5px 0px;
+   font-size: 1px;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemLeft,
+.MenuBar1MainItemActive .MenuBar1MainItemLeft,
+.MenuBar1MainItemHover .MenuBar1MainFolderLeft,
+.MenuBar1MainItemActive .MenuBar1MainFolderLeft
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 5px 0px 5px 0px;
+   font-size: 1px;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemText,
+.MenuBar1MainItemActive .MenuBar1MainItemText,
+.MenuBar1MainItemHover .MenuBar1MainItemText a,
+.MenuBar1MainItemActive .MenuBar1MainItemText a,
+.MenuBar1MainItemHover .MenuBar1MainFolderText,
+.MenuBar1MainItemActive .MenuBar1MainFolderText,
+.MenuBar1MainItemHover .MenuBar1MainFolderText a,
+.MenuBar1MainItemActive .MenuBar1MainFolderText a
+{
+   background-color: #FFFFFF;
+   color: #FF0000;
+   font-size: 13px;
+   font-family: Cantarell;
+   font-weight: normal;
+   line-height: 18px;
+   text-align: right;
+   text-decoration: none;
+   white-space: nowrap;
+   margin: 0;
+   cursor: pointer;
+   border-bottom: 0px solid #FFFFFF;
+   border-right: 0px solid #FFFFFF;
+   border-top: 0px solid #FFFFFF;
+   border-left: 0px solid #FFFFFF;
+   padding: 5px 15px 5px 15px;
+   vertical-align: middle;
+}
+.MenuBar1MainItemHover .MenuBar1MainItemRight,
+.MenuBar1MainItemActive .MenuBar1MainItemRight,
+.MenuBar1MainItemHover .MenuBar1MainFolderRight,
+.MenuBar1MainItemActive .MenuBar1MainFolderRight
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 5px 0px 5px 0px;
+   font-size: 1px;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemLeft,
+.MenuBar1MenuItem .MenuBar1MenuFolderLeft
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   text-align: center;
+   padding: 3px 0px 3px 0px;
+   font-size: 1px;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemText, 
+.MenuBar1MenuItem .MenuBar1MenuItemText a,
+.MenuBar1MenuItem .MenuBar1MenuFolderText,
+.MenuBar1MenuItem .MenuBar1MenuFolderText a
+{
+   background-color: #FFFFFF;
+   color: #333333;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 16px;
+   text-align: left;
+   text-decoration: none;
+   white-space: nowrap;
+   margin: 0;
+   cursor: pointer;
+   border-bottom: 0px solid #CCCCCC;
+   border-top: 0px solid #CCCCCC;
+   border-right: 0px solid #CCCCCC;
+   border-left: 0px solid #CCCCCC;
+   padding: 3px 5px 3px 5px;
+   vertical-align: middle;
+}
+.MenuBar1MenuItem .MenuBar1MenuItemRight,
+.MenuBar1MenuItem .MenuBar1MenuFolderRight
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 3px 0px 3px 0px;
+   font-size: 1px;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemLeft, 
+.MenuBar1MenuItemActive .MenuBar1MenuItemLeft,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderLeft,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderLeft
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 3px 0px 3px 0px;
+   font-size: 1px;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemText,
+.MenuBar1MenuItemActive .MenuBar1MenuItemText,
+.MenuBar1MenuItemHover .MenuBar1MenuItemText a,
+.MenuBar1MenuItemActive .MenuBar1MenuItemText a,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderText,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderText,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderText a,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderText a
+{
+   background-color: #337AB7;
+   color: #FFFFFF;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   line-height: 16px;
+   text-align: left;
+   text-decoration: none;
+   white-space: nowrap;
+   margin: 0;
+   cursor: pointer;
+   border-bottom: 0px solid #CCCCCC;
+   border-top: 0px solid #CCCCCC;
+   border-right: 0px solid #CCCCCC;
+   border-left: 0px solid #CCCCCC;
+   padding: 3px 5px 3px 5px;
+   vertical-align: middle;
+}
+.MenuBar1MenuItemHover .MenuBar1MenuItemRight,
+.MenuBar1MenuItemActive .MenuBar1MenuItemRight,
+.MenuBar1MenuItemHover .MenuBar1MenuFolderRight,
+.MenuBar1MenuItemActive .MenuBar1MenuFolderRight
+{
+   width: 0px;
+   cursor: pointer;
+   border-width: 0;
+   padding: 3px 0px 3px 0px;
+   font-size: 1px;
+}
+.MenuBar1SubMenu td,
+.MenuBar1Menu td,
+.MenuBar1Menu tr
+{
+   vertical-align: middle;
+}
+.MenuBar1MenuSplitText div
+{
+   height: 1px;
+   padding: 0;
+   background-color: #333333;
+   overflow: hidden;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitLeft
+{
+   height: 7px;
+   padding: 0;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitText
+{
+   background-color: #FFFFFF;
+   height: 7px;
+   padding: 0px 6px 0px 6px;
+}
+.MenuBar1MenuItem .MenuBar1MenuSplitRight
+{
+   height: 7px;
+   padding: 0;
+}
+.MenuBar1MainSplitText div
+{
+   background-color: #333333;
+   height: 1px;
+   padding: 0;
+   overflow: hidden;
+}
+.MenuBar1MainItem .MenuBar1MainSplitLeft 
+{
+   height: 11px;
+   padding: 0;
+}
+.MenuBar1MainItem .MenuBar1MainSplitText
+{
+   background-color: #FFFFFF;
+   height: 11px;
+   padding: 0;
+}
+.MenuBar1MainItem .MenuBar1MainSplitRight
+{
+   height: 11px;
+   padding: 0;
+}
+.MenuBar1MainItem
+{
+   vertical-align: middle;
+}
+.MenuBar1HorizontalSplit
+{
+   border-right: 0 solid #8080FF;
+   border-left: 0 solid #8080FF;
+   width: 35px;
+   background-color: #FFFFFF;
+   padding: 5px 0px 5px 0px;
+   vertical-align: middle;
+   text-align: center;
+   text-decoration: none;
+   color: #333333;
+   font-size: 13px;
+   font-family: Cantarell;
+   font-style: normal;
+}
+.MenuBar1MainItem, .MenuBar1MainItemHover, .MenuBar1MainItemActive,
+.MenuBar1MenuItem, .MenuBar1MenuItemHover, .MenuBar1MenuItemActive
+{
+   white-space: nowrap;
+}
+.MenuBar1SpacerDiv
+{
+   background: transparent;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 1px;
+}
+#button_facebook_header
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_twitter_header
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_instagram_header
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_youtube_header
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_metube_header
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#button_search
+{
+   line-height: 40px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 0px solid #2E6DA4;
+   border-radius: 25px;
+   background-color: #F5F5F5;
+   background-image: url(images/ic_search_32px.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 20px 20px;
+   color: #F5F5F5;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-shadow: 0px 0px 3px #DCDCDC;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#button_signup
+{
+   line-height: 40px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 0px solid #2E6DA4;
+   border-radius: 20px;
+   background-color: #3370B7;
+   background-image: url(images/ic_person_32px.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 20px 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-shadow: 0px 0px 3px #F5F5F5;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button1
+{
+   line-height: 40px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 0px solid #2E6DA4;
+   border-radius: 20px;
+   background-color: #A52B1D;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   box-shadow: 0px 0px 3px #F5F5F5;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text23 div
+{
+   text-align: right;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Button2
+{
+   line-height: 40px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 0px solid #2E6DA4;
+   border-radius: 20px;
+   background-color: transparent;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text31 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text31 div
+{
+   text-align: left;
+}
+#wb_Text32 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text32 div
+{
+   text-align: left;
+}
+#wb_Text33 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text33 div
+{
+   text-align: left;
+}
+#wb_Text34 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text34 div
+{
+   text-align: left;
 }
