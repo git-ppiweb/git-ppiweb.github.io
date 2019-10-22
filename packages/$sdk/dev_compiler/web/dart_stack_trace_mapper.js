@@ -467,8 +467,8 @@ try{if(H.fY(a,b))return a
 u=H.bc(b)
 t=H.af(a,u)
 throw H.a(t)}finally{$.eF=!1}},
-af:function(a,b){return new H.bz("TypeError: "+P.al(a)+": type '"+H.fP(a)+"' is not a subtype of type '"+b+"'")},
-hT:function(a,b){return new H.bP("CastError: "+P.al(a)+": type '"+H.fP(a)+"' is not a subtype of type '"+b+"'")},
+af:function(a,b){return new H.bz("TypeError: "+P.al(a)+": type '"+H.b(H.fP(a))+"' is not a subtype of type '"+b+"'")},
+hT:function(a,b){return new H.bP("CastError: "+P.al(a)+": type '"+H.b(H.fP(a))+"' is not a subtype of type '"+b+"'")},
 fP:function(a){var u,t=J.r(a)
 if(!!t.$iat){u=H.e1(t)
 if(u!=null)return H.bc(u)
@@ -1147,7 +1147,7 @@ if(u!=null)return u
 if(b!=null)return b.$1(a)
 throw H.a(P.n(a,null,null))},
 i_:function(a){if(a instanceof H.at)return a.h(0)
-return"Instance of '"+H.aY(a)+"'"},
+return"Instance of '"+H.b(H.aY(a))+"'"},
 cz:function(a,b,c){var u,t=J.i5(a,c)
 if(a!==0&&!0)for(u=0;u<t.length;++u)C.b.t(t,u,b)
 return H.H(t,"$ik",[c],"$ak")},
@@ -2267,7 +2267,7 @@ H.eo.prototype={}
 J.D.prototype={
 K:function(a,b){return a===b},
 gB:function(a){return H.aX(a)},
-h:function(a){return"Instance of '"+H.aY(a)+"'"},
+h:function(a){return"Instance of '"+H.b(H.aY(a))+"'"},
 ay:function(a,b){H.l(b,"$iek")
 throw H.a(P.fg(a,b.gbA(),b.gbE(),b.gbB()))}}
 J.cm.prototype={
@@ -2443,7 +2443,7 @@ return a.charCodeAt(b)},
 as:function(a,b,c){var u
 if(typeof b!=="string")H.t(H.G(b))
 u=b.length
-if(c>u)throw H.a(P.x(c,0,b.length,null,null))
+if(c>u)throw H.a(P.x(c,0,u,null,null))
 return new H.dG(b,a,c)},
 aV:function(a,b){return this.as(a,b,0)},
 bz:function(a,b,c){var u,t
@@ -2745,7 +2745,8 @@ $1:function(a){if(!!J.r(a).$iau)if(a.$thrownJsError==null)a.$thrownJsError=this.
 return a},
 $S:4}
 H.at.prototype={
-h:function(a){return"Closure '"+H.aY(this).trim()+"'"},
+h:function(a){var u=H.aY(this).trim()
+return"Closure '"+u+"'"},
 $iav:1,
 gcD:function(){return this},
 $C:"$1",
@@ -2768,7 +2769,7 @@ else u=typeof t!=="object"?J.aO(t):H.aX(t)
 return(u^H.aX(this.b))>>>0},
 h:function(a){var u=this.c
 if(u==null)u=this.a
-return"Closure '"+H.b(this.d)+"' of "+("Instance of '"+H.aY(u)+"'")}}
+return"Closure '"+H.b(this.d)+"' of "+("Instance of '"+H.b(H.aY(u))+"'")}}
 H.bz.prototype={
 h:function(a){return this.a}}
 H.bP.prototype={
@@ -2907,7 +2908,8 @@ if(typeof a!=="string")H.t(H.G(a))
 u=this.b.exec(a)
 if(u==null)return
 return new H.b6(u)},
-as:function(a,b,c){if(c>b.length)throw H.a(P.x(c,0,b.length,null,null))
+as:function(a,b,c){var u=b.length
+if(c>u)throw H.a(P.x(c,0,u,null,null))
 return new H.dz(this,b,c)},
 aV:function(a,b){return this.as(a,b,0)},
 bj:function(a,b){var u,t=this.gbn()
@@ -3439,7 +3441,7 @@ P.a8.prototype={}
 P.A.prototype={constructor:P.A,$iA:1,
 K:function(a,b){return this===b},
 gB:function(a){return H.aX(this)},
-h:function(a){return"Instance of '"+H.aY(this)+"'"},
+h:function(a){return"Instance of '"+H.b(H.aY(this))+"'"},
 ay:function(a,b){H.l(b,"$iek")
 throw H.a(P.fg(this,b.gbA(),b.gbE(),b.gbB()))},
 toString:function(){return this.h(this)}}
@@ -4583,7 +4585,7 @@ if(C.a.C(m,j)){q=C.a.v(m,C.a.bu(m,j))
 break}l=H.b(o)+"/packages"
 if(n.bm(l,q)===C.l){k="package:"+n.aB(q,l)
 q=k
-break}}}t=P.P(!C.a.A(q,j)&&!C.a.A(q,"package:")&&C.a.C(q,"dart_sdk.js")?"dart:sdk_internal":q)
+break}}}t=P.P(!C.a.A(q,j)&&!C.a.A(q,"package:")&&C.a.C(q,"dart_sdk")?"dart:sdk_internal":q)
 s=r.gL().ga4()
 if(typeof s!=="number")return s.w()
 return new A.j(t,s+1,r.gL().ga2()+1,O.iR(a.gax()))},
