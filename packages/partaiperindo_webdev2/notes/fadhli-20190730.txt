@@ -1,0 +1,27 @@
+No.	Fitur	                                    Status
+01	Homepage column + justify logo + grid       Ok
+02	Search bar + search result (pagination)     Ok 85%
+03	Detail news                                 On plan
+04	Bread crumbs navigation                     Ok
+05	Stories + stories detail                    On plan
+06	Dukung + pop up player                      Ok 75%
+07	Sosmed sharing (floating)                   Ok
+08	Shrink scroll navigation menu               Ok
+
+// home: IndexPage(),
+// routes: <String, WidgetBuilder>
+// {
+//   '/about': (BuildContext context)=> new AboutUs(),
+//   '/home': (BuildContext context)=> new IndexPage(),
+//   '/news': (BuildContext context)=> new News(),
+//   '/ourfuture': (BuildContext context)=> new OurFuture(),
+//   '/places': (BuildContext context)=> new PerindoHouses(),
+//   '/readnews': (BuildContext context)=> new ReadNews(
+//     id: "", judulBerita: "", isiBerita: "", urlPhoto: "", tglPosting: "",
+//     authorNamaLengkap: "", authorUrlPhoto: "",
+//   ),
+//   '/signin': (BuildContext context)=> new SignIn(),
+//   '/signup': (BuildContext context)=> new SignUp(),
+//   '/stories': (BuildContext context)=> new Stories(),
+//   '/support': (BuildContext context)=> new Support(),
+// },
