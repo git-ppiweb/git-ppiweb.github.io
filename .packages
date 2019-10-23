@@ -11,6 +11,7 @@ args:packages/args/
 async:packages/async/
 bazel_worker:packages/bazel_worker/
 build:packages/build/
+build_cli_annotations:packages/build_cli_annotations/
 build_config:packages/build_config/
 build_daemon:packages/build_daemon/
 build_modules:packages/build_modules/
@@ -31,6 +32,7 @@ crypto:packages/crypto/
 csslib:packages/csslib/
 dart2_constant:packages/dart2_constant/
 dart_style:packages/dart_style/
+dhttpd:packages/dhttpd/
 file:packages/file/
 fixnum:packages/fixnum/
 flare_dart:packages/flare_dart/
@@ -71,6 +73,7 @@ quiver:packages/quiver/
 quiver_hashcode:packages/quiver_hashcode/
 scratch_space:packages/scratch_space/
 shelf:packages/shelf/
+shelf_static:packages/shelf_static/
 shelf_web_socket:packages/shelf_web_socket/
 source_maps:packages/source_maps/
 source_span:packages/source_span/
